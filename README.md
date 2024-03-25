@@ -224,6 +224,19 @@ in this case visit:
 
 and then, in the drop-down menu, change from "Hex" to "Number"
 
+* Optional: insert the code into crontab
+
+Now you can insert the above code into crontab to have the temperature data inserted automatically into blockchain so that you have an example log similar to this one:  
+```shell
+🕑 2024-03-25 16:30:00 CET
+🟩 Poweron container:
+container_fndr
+🕑 2024-03-25 16:31:01 CET
+⛏ Write temperature into blockchain:
+Temperature value: 1578
+🕑 2024-03-25 16:33:01 CET
+🟥 Poweroff container:
+container_fndr
 
 
 
