@@ -39,13 +39,17 @@ THE SOFTWARE IS PROVIDED "AS IS". See license file LICENSE.md for details.
   
   [https://docs.scroll.io/en/home/](https://docs.scroll.io/en/home/).
   
- To check the transactions of Layer2 you can use the L2 Block explorer ( https://sepolia.scrollscan.com/ ), while to verify the related rollup it is possible to have a check here
+ To check the transactions of Layer 2 you can use the L2 Block explorer:
 
- https://sepolia.scroll.io/rollupscan?page=1&per_page=10 
+https://sepolia.scrollscan.com
+
+while to verify the related rollup, it is possible to have a check here:
+
+https://sepolia.scroll.io/rollupscan
  
- and finally on the Layer 1
+and finally on the Layer 1
 
- https://sepolia.etherscan.io/
+ https://sepolia.etherscan.io
 
 For this example we will use EOA "0xa67a79cF9EaD85879e2d15238707aFC0a2f45EAa" on SCROLL SEPOLIA TESTNET.
 
