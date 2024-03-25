@@ -123,7 +123,12 @@ foundry:v0.2.0 \
 ```
 
 * Deploy smart contract:
+Note: You must have some funds into your EOA before deploy the Smart Contract. In this case we can check the EOA's balance of this example here:
+https://sepolia.scrollscan.com/address/0xa67a79cF9EaD85879e2d15238707aFC0a2f45EAa
+
 ```shell
+cd ~/lanscrollsepolia_box/box
+
 docker run \
 --rm \
 -it \
@@ -135,3 +140,64 @@ docker run \
 foundry:v0.2.0 \
 -c "forge create --rpc-url=https://sepolia-rpc.scroll.io --private-key [PrivateKey] src/box.sol:Box"
 ```
+OUTPUT:
+Deployer: 0xa67a79cF9EaD85879e2d15238707aFC0a2f45EAa
+Deployed to: 0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86
+
+* Interact with smart contract:
+```shell
+docker run \
+--rm \
+-it \
+-d \
+--name foundry_deploy \
+-v ~/lanscrollsepolia_box/box:/app \
+--entrypoint sh \
+-w /app \
+foundry:v0.2.0 \
+-c "forge inspect Box storage-layout --pretty"
+```
+OUTPUT:
+
+```shell
+| Name   | Type    | Slot | Offset | Bytes | Contract        |
+|--------|---------|------|--------|-------|-----------------|
+| _owner | address | 0    | 0      | 20    | src/box.sol:Box |
+| _value | uint256 | 1    | 0      | 32    | src/box.sol:Box |
+```
+
+* Insert a value into smart contract 0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86 :
+```shell
+docker run \
+--rm \
+-it \
+-d \
+--name foundry_deploy \
+-v ~/lanscrollsepolia_box/box:/app \
+--entrypoint sh \
+-w /app \
+foundry:v0.2.0 \
+-c "cast send 0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86 'store(uint256)' '1578' --rpc-url https://sepolia-rpc.scroll.io --private-key [PrivateKey]"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
