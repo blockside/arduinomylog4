@@ -237,23 +237,3 @@ Temperature value: 1578
 🕑 2024-03-25 16:33:01 CET
 🟥 Poweroff container:
 container_fndr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
