@@ -37,9 +37,9 @@ THE SOFTWARE IS PROVIDED "AS IS". See license file LICENSE.md for details.
   
   if you are not familiar with how a blockchain works, it is recommended to read more information here:
   
-  [https://docs.scroll.io/en/home/](https://docs.scroll.io/en/home/).
+https://docs.scroll.io/en/home
   
- To check the transactions of Layer 2 you can use the L2 Block explorer:
+To check the transactions of Layer 2 you can use the L2 Block explorer:
 
 https://sepolia.scrollscan.com
 
