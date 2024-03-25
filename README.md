@@ -220,13 +220,13 @@ See your data on blockchain (they are accessible to anyone) by visiting a blockc
 
 in this case visit:
 
-(https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#events)https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#events
+https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#events
 
-and then, in the drop-down menu, change from "Hex" to "Number"
+and then, in the drop-down menu, 👉 change from "Hex" to "Number"
 
 * Optional: insert the code into crontab
 
-Now you can insert the above code into crontab to have the temperature data inserted automatically into blockchain so that you have an example log similar to this one:  
+Now you can now insert the above code into crontab to fetch the temperature data json coming from Arduino and insert IT automatically into blockchain. For example you will have an example log similar to this one:  
 ```shell
 🕑 2024-03-25 16:30:00 CET
 🟩 Poweron container:
