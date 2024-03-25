@@ -123,7 +123,11 @@ foundry:v0.2.0 \
 ```
 
 * Deploy smart contract:
-Note: You must have some funds into your EOA before deploy the Smart Contract. In this case we can check the EOA's balance of this example here:
+
+Note: You must have some funds into your EOA before deploy the Smart Contract.
+
+In this case we can check the EOA's balance of this example here:
+
 https://sepolia.scrollscan.com/address/0xa67a79cF9EaD85879e2d15238707aFC0a2f45EAa
 
 ```shell
@@ -141,7 +145,9 @@ foundry:v0.2.0 \
 -c "forge create --rpc-url=https://sepolia-rpc.scroll.io --private-key [PrivateKey] src/box.sol:Box"
 ```
 OUTPUT:
+
 Deployer: 0xa67a79cF9EaD85879e2d15238707aFC0a2f45EAa
+
 Deployed to: 0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86
 
 * Interact with smart contract:
