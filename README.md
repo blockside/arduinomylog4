@@ -10,11 +10,11 @@ This project will store into an Layer2 Testnet Blockchain (Scroll Sepolia), the 
 - [Scroll seamlessly extends Ethereum’s capabilities through zero knowledge tech and EVM compatibility.](https://scroll.io/)
 - [Foundry is a blazing fast, portable and modular toolkit for Ethereum application](https://getfoundry.sh/)
 - [Arduino is an open-source electronics platform](https://www.arduino.cc/)
-- [TMP36 library is a very simple Arduino library](https://github.com/Isaacr100/TMP36/)
+- [Docker helps developers build, share, run, and verify applications anywhere](https://www.docker.com/)
 
 ## Tested for
 
-* ARDUINO UNO BOARD with ARDUINO ETHERNET SHIELD (https://store.arduino.cc) equipped with temperature sensor TMP36 
+* ARDUINO UNO BOARD with ARDUINO ETHERNET SHIELD (https://store.arduino.cc) equipped with a temperature sensor
 (Note: any devices that provides data in json format could be included in this project)
 
 
