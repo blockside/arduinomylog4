@@ -216,7 +216,7 @@ OUTPUT:
 
 1578 -------👉-------> is 15.78 °C
 
-Note: Scroll blockchain, like many other blockchains including Ethereum, uses an integer representation to handle data. This means that the numbers are represented without the decimal point.
+Note: Scroll blockchain, like many other blockchains including Ethereum, uses an integer representation to handle data. This means that the numbers are represented without the decimal point. Once you have this information it is easy adaptation the data extracted from the blockchain by dividing it by 100 into the app or web page. 
 
 
 * Monitor the data in a quick way:
@@ -231,7 +231,7 @@ and then, in the drop-down menu, 👉 change from "Hex" to "Number"
 
 * Optional: insert the code into crontab
 
-Now you can now insert the above code into crontab to fetch the temperature data json coming from Arduino and insert it automatically into blockchain. For example you will have an example log similar to this one:  
+Now you can now insert the above code into crontab to fetch the temperature data json coming from remote json and insert it automatically into blockchain. For example my crontab log is like this one:  
 ```shell
 #####################################
 🕑 2024-03-26 12:06:01 CET
@@ -239,7 +239,6 @@ Now you can now insert the above code into crontab to fetch the temperature data
 🕑 2024-03-26 12:07:01 CET
 ⛏ Write temperature into blockchain:
 940
-7a56e5f99559415d224762d28780d2242dc69eabdb060aff6adfc5e458774a2b
 🕑 2024-03-26 12:08:01 CET
 🟥 Poweroff container
 #####################################
@@ -248,7 +247,6 @@ Now you can now insert the above code into crontab to fetch the temperature data
 🕑 2024-03-26 13:07:01 CET
 ⛏ Write temperature into blockchain:
 1000
-eadf1cda88a4303632a1ae3d2eb153759e56e5bcaaf3ff17073daff86dfc227a
 🕑 2024-03-26 13:08:01 CET
 🟥 Poweroff container
 #####################################
@@ -257,7 +255,6 @@ eadf1cda88a4303632a1ae3d2eb153759e56e5bcaaf3ff17073daff86dfc227a
 🕑 2024-03-26 14:07:01 CET
 ⛏ Write temperature into blockchain:
 920
-d2fde082425f4a07c8b95cc1b408b2d74553632ef48881c045858c6a1e11fe22
 🕑 2024-03-26 14:08:01 CET
 🟥 Poweroff container
 ```
