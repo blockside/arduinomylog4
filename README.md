@@ -219,19 +219,24 @@ OUTPUT:
 Note: Scroll blockchain, like many other blockchains including Ethereum, uses an integer representation to handle data. This means that the numbers are represented without the decimal point. Once you have this information it is easy adaptation the data extracted from the blockchain by dividing it by 100 into the app or web page. 
 
 
-* Monitor the data in a quick way:
+## Monitor data in a quick way
 
-See your data on blockchain (they are accessible to anyone) by visiting a blockchain explorer;
-
-in this case visit:
+if you don't have access to the command line, you can quickly view your data from a website that queries the blockchain (they are accessible to anyone); 
+in this case visit a blockchain explorer;
 
 https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#events
 
 and then, in the drop-down menu, 👉 change from "Hex" to "Number"
 
+Note: if the smart contract is then validated (as in this case where you can see the green sticker next to the words "Contract"), the potential for transparency of the code to third parties increases; this brings greater awareness to the user about the actions that the smart contract will take in its use. 
+See the verified smart contract here:  
+https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#readContract
+
 * Optional: insert the code into crontab
 
-Now you can now insert the above code into crontab to fetch the temperature data json coming from remote json and insert it automatically into blockchain. For example my crontab log is like this one:  
+Now you can insert the above code into crontab to fetch the temperature data json coming from remote json and insert it automatically into blockchain. 
+
+For example my crontab create a log like this one:  
 ```shell
 #####################################
 🕑 2024-03-26 12:06:01 CET
