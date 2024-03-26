@@ -221,14 +221,14 @@ Note: Scroll blockchain, like many other blockchains including Ethereum, uses an
 
 ## Monitor data in a quick way
 
-if you don't have access to the command line, you can quickly view your data from a website that queries the blockchain (they are accessible to anyone); 
+if you don't have access to the command line, you can quickly view the data from a website that queries the blockchain;
 in this case visit a blockchain explorer;
 
 https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#events
 
 and then, in the drop-down menu, 👉 change from "Hex" to "Number"
 
-Note: if the smart contract is then validated (as in this case where you can see the green sticker next to the words "Contract"), the potential for transparency of the code to third parties increases; this brings greater awareness to the user about the actions that the smart contract will take in its use. 
+Note: if the smart contract is validated (as in this case where you can see the green sticker next to the words "Contract"), the potential for transparency of the code to third parties increases; this brings greater awareness to the user about the actions that the smart contract will take in its use. 
 See the verified smart contract here:  
 https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#readContract
 
