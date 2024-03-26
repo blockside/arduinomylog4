@@ -19,7 +19,7 @@ This project will store into a Layer 2 Testnet Blockchain (Scroll Sepolia), the 
 
 
 ## Notice
-This software is experimental and a work in progress. Data inserted into blockchain will be accessible to anyone.
+This software is experimental and a work in progress. Data entered into blockchain is visible to everyone.
 Under no circumstances should these files be used in relation to any critical system(s).
 Use of these files is at your own risk.
 THE SOFTWARE IS PROVIDED "AS IS". See license file LICENSE.md for details.
