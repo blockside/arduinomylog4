@@ -216,7 +216,7 @@ OUTPUT:
 
 1578 -------👉-------> is 15.78 °C
 
-Note: Scroll blockchain, like many other blockchains including Ethereum, uses an integer representation to handle data. This means that the numbers are represented without the decimal point. Once you have this information it is easy adaptation the data extracted from the blockchain by dividing it by 100 into the app or web page. 
+Note: Scroll blockchain, like many other blockchains including Ethereum, uses an integer representation to handle data. This means that the numbers are represented without the decimal dot. Once you have this information it is easy adaptation the data extracted from the blockchain by dividing it by 100 into the app or web page. 
 
 
 ## Monitor data in a quick way
