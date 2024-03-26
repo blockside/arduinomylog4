@@ -232,6 +232,10 @@ Note: if the smart contract is then validated (as in this case where you can see
 See the verified smart contract here:  
 https://sepolia.scrollscan.com/address/0x6A2C5E2B519b07E6939363f44d9dF4E23af73b86#readContract
 
+* Hints of usage
+
+The "retrieve" function of this smart contract is read-only, and allows anyone to read the temperature, while the "store", "renounceOwnership" and "transferOwnership" functions are write-only and reserved only by the current owner of the smart contract (who it is can be seen in the owner function). The name of the functions is intentionally explanatory, so it is understood that the ownership of this contract can be transferred by the owner by calling the function "transferOwnership"  
+
 * Optional: insert the code into crontab
 
 Now you can insert the above code into crontab to fetch the temperature data json coming from remote json and insert it automatically into blockchain. 
