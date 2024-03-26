@@ -231,7 +231,7 @@ and then, in the drop-down menu, 👉 change from "Hex" to "Number"
 
 * Optional: insert the code into crontab
 
-Now you can now insert the above code into crontab to fetch the temperature data json coming from Arduino and insert IT automatically into blockchain. For example you will have an example log similar to this one:  
+Now you can now insert the above code into crontab to fetch the temperature data json coming from Arduino and insert it automatically into blockchain. For example you will have an example log similar to this one:  
 ```shell
 #####################################
 🕑 2024-03-26 12:06:01 CET
